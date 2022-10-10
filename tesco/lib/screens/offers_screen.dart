@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:tesco/screens/coupons.dart';
+import 'package:tesco/screens/offers.dart';
 
 import 'NavBar.dart';
 
@@ -25,5 +27,6 @@ class _OffersScreenState extends State<OffersScreen> {
             Tab(text: "Coupons"),
           ]),
         ),
+        body: TabBarView(children: [Offers(), Coupons()]),
       ));
 }
