@@ -47,12 +47,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(10.0),
-                            child: Text(
-                              "It did not scan?",
-                              style: TextStyle(
-                                  decoration: TextDecoration.underline,
-                                  color: Colors.white,
-                                  fontSize: 15),
+                            child: Row(
+                              children: [
+                                Text(
+                                  "It did not scan?",
+                                  style: TextStyle(
+                                      decoration: TextDecoration.underline,
+                                      color: Colors.white,
+                                      fontSize: 15),
+                                ),
+                              ],
                             ),
                           )
                         ],
@@ -65,22 +69,35 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.all(8),
             child: Container(
               color: Colors.white,
-              height: 160,
+              height: 180,
               child: Column(
                 children: [
-                  Text(
-                    '393 points',
-                    style: TextStyle(fontSize: 30, color: Colors.black),
+                  Row(
+                    children: [
+                      Text(
+                        '393 points',
+                        style: TextStyle(fontSize: 30, color: Colors.black),
+                      ),
+                    ],
                   ),
                   LinearProgressBar(
                     maxSteps: 6,
                     progressType: LinearProgressBar
                         .progressTypeLinear, // Use Linear progress
                     currentStep: 5,
+                    minHeight: 12,
                     progressColor: Color(0xff038dc8),
                     backgroundColor: Colors.grey,
                   ),
-                  Text("7 more points to your next voucher worth €4 "),
+                  Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                            "7 more points to your next voucher worth €4 "),
+                      ),
+                    ],
+                  ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ElevatedButton(
@@ -107,14 +124,14 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.all(8),
             child: Container(
               height: 150,
-              color: Colors.deepPurple[200],
+              color: Color(0xff00529e),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8),
             child: Container(
               height: 150,
-              color: Colors.deepPurple[200],
+              color: Color(0xff00529e),
             ),
           ),
           Padding(
