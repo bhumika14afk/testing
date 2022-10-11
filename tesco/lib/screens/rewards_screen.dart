@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'NavBar.dart';
 
@@ -18,6 +17,40 @@ class _RewardsState extends State<Rewards> {
         backgroundColor: Color(0xff00529e),
         centerTitle: true,
         title: Text("Rewards"),
+      ),
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "Eating Out",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8),
+            child: Row(
+              children: [
+                Container(
+                  child: Column(),
+                  height: 150,
+                  width: 150,
+                ),
+              ],
+            ),
+          ),
+          Padding(
+              padding: const EdgeInsets.all(8),
+              child: Text("Fun",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))),
+          Padding(
+            padding: const EdgeInsets.all(8),
+            child: Container(
+              height: 150,
+              color: Colors.deepPurple[200],
+            ),
+          ),
+        ],
       ),
     );
   }
