@@ -14,7 +14,7 @@ https://docs.flutter.dev/get-started/install
 ### Step 1:
 Download or clone this repo by using the link below:
 ```
-https://dev.celominds.com/gogs/bhumika/tesco-app
+https://dev.celominds.com/gogs/bhumika/tesco-app.git
 ```
 ### Step 2:
 
