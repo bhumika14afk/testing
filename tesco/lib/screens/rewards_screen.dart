@@ -32,7 +32,9 @@ class _RewardsState extends State<Rewards> {
             child: Row(
               children: [
                 Container(
-                  child: Column(),
+                  child: Column(
+                    children: [Text("hello")],
+                  ),
                   height: 150,
                   width: 150,
                 ),
