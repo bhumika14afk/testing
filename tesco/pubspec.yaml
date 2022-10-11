@@ -39,6 +39,7 @@ dependencies:
   font_awesome_flutter: ^10.2.1
   percent_indicator: ^2.1.3
   linear_progress_bar: ^1.1.0
+  avatars: ^3.0.0
 
 dev_dependencies:
   flutter_test:
