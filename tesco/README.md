@@ -2,15 +2,36 @@
 
 A new Flutter project.
 
-## Getting Started
+## Installing Flutter
 
 This project is a starting point for a Flutter application.
+Install flutter and update your path in the system.
 
-A few resources to get you started if this is your first Flutter project:
+https://docs.flutter.dev/get-started/install
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to use
+-----
+### Step 1:
+Download or clone this repo by using the link below:
+```
+https://dev.celominds.com/gogs/bhumika/tesco-app.git
+```
+### Step 2:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Go to project root and execute the following command in console to get the required dependencies:
+```
+cd tesco
+```
+```
+flutter pub get
+```
+### Step 3:
+ 
+ Install android studio and create a virtual device.
+ https://developer.android.com/studio
+ 
+### Step 4:
+Run the below command after opening the android virtual device.
+```
+flutter run
+```
