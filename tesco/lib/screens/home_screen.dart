@@ -134,13 +134,6 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Color(0xff00529e),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(8),
-            child: Container(
-              height: 150,
-              color: Colors.deepPurple[200],
-            ),
-          ),
         ],
       ),
       appBar: AppBar(
