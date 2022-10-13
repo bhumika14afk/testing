@@ -156,22 +156,23 @@ class _OffersState extends State<Offers> {
                   trailing: Icon(Icons.arrow_forward_ios_rounded,
                       color: Color(0xff00529e)))),
           Card(
-              child: ListTile(
-                  onTap: () {},
-                  leading: Avatar(
-                      shape: AvatarShape.rectangle(
-                          60, 60, BorderRadius.all(Radius.circular(0.0))),
-                      sources: [
-                        NetworkSource(
-                            'https://digitalcontent.api.tesco.com/v2/media/ghs/3b0eaa57-7226-40ac-80f8-1192becd81bf/snapshotimagehandler_6803425.jpeg?h=540&w=540'),
-                      ]),
-                  title: Text("Jaffa Clementine Or Sweet Easy Peeler 600G"),
-                  subtitle: Text(
-                    "€1.50 Clubcard Price",
-                    style: TextStyle(color: Colors.red),
-                  ),
-                  trailing: Icon(Icons.arrow_forward_ios_rounded,
-                      color: Color(0xff00529e)))),
+            child: ListTile(
+                onTap: () {},
+                leading: Avatar(
+                    shape: AvatarShape.rectangle(
+                        60, 60, BorderRadius.all(Radius.circular(0.0))),
+                    sources: [
+                      NetworkSource(
+                          'https://digitalcontent.api.tesco.com/v2/media/ghs/3b0eaa57-7226-40ac-80f8-1192becd81bf/snapshotimagehandler_6803425.jpeg?h=540&w=540'),
+                    ]),
+                title: Text("Jaffa Clementine Or Sweet Easy Peeler 600G"),
+                subtitle: Text(
+                  "€1.50 Clubcard Price",
+                  style: TextStyle(color: Colors.red),
+                ),
+                trailing: Icon(Icons.arrow_forward_ios_rounded,
+                    color: Color(0xff00529e))),
+          ),
         ],
       ),
     );
