@@ -60,7 +60,9 @@ class NavBar extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.exit_to_app_outlined),
             title: Text('Sign Out'),
-            onTap: () => null,
+            onTap: () {
+              Navigator.pushNamed(context, 'login');
+            },
           ),
         ],
       ),

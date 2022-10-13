@@ -46,6 +46,7 @@ class _OffersState extends State<Offers> {
                   ),
                   Card(
                       child: ListTile(
+                          onTap: () {},
                           leading: Icon(
                             Icons.shopping_basket,
                             size: 40,
@@ -71,6 +72,7 @@ class _OffersState extends State<Offers> {
           ),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),
@@ -87,6 +89,7 @@ class _OffersState extends State<Offers> {
                       color: Color(0xff00529e)))),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),
@@ -103,6 +106,7 @@ class _OffersState extends State<Offers> {
                       color: Color(0xff00529e)))),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),
@@ -119,6 +123,7 @@ class _OffersState extends State<Offers> {
                       color: Color(0xff00529e)))),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),
@@ -135,6 +140,7 @@ class _OffersState extends State<Offers> {
                       color: Color(0xff00529e)))),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),
@@ -151,6 +157,7 @@ class _OffersState extends State<Offers> {
                       color: Color(0xff00529e)))),
           Card(
               child: ListTile(
+                  onTap: () {},
                   leading: Avatar(
                       shape: AvatarShape.rectangle(
                           60, 60, BorderRadius.all(Radius.circular(0.0))),

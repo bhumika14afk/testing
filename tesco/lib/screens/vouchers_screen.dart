@@ -61,8 +61,7 @@ class _VouchersState extends State<Vouchers> {
           ),
           Card(
               elevation: 3,
-              child: ListTile(
-                  shape: Border(top: BorderSide(color: Color(0xff00529e))),
+              child: ExpansionTile(
                   leading: Icon(
                     Icons.keyboard_arrow_down_sharp,
                     color: Color(0xff00529e),
@@ -74,8 +73,7 @@ class _VouchersState extends State<Vouchers> {
                   trailing: Text("Use by 30/11/2022"))),
           Card(
               elevation: 3,
-              child: ListTile(
-                  shape: Border(top: BorderSide(color: Color(0xff00529e))),
+              child: ExpansionTile(
                   leading: Icon(
                     Icons.keyboard_arrow_down_sharp,
                     color: Color(0xff00529e),
@@ -87,8 +85,7 @@ class _VouchersState extends State<Vouchers> {
                   trailing: Text("Use by 28/2/2023"))),
           Card(
               elevation: 3,
-              child: ListTile(
-                  shape: Border(top: BorderSide(color: Color(0xff00529e))),
+              child: ExpansionTile(
                   leading: Icon(
                     Icons.keyboard_arrow_down_sharp,
                     color: Color(0xff00529e),
@@ -100,8 +97,7 @@ class _VouchersState extends State<Vouchers> {
                   trailing: Text("Use by 31/08/2024"))),
           Card(
             elevation: 3,
-            child: ListTile(
-                shape: Border(top: BorderSide(color: Color(0xff00529e))),
+            child: ExpansionTile(
                 leading: Icon(
                   Icons.keyboard_arrow_down_sharp,
                   color: Color(0xff00529e),

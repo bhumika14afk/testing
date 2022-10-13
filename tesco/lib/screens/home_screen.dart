@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
-                        width: 200,
+                        width: 190,
                         height: 200.0,
                         decoration: BoxDecoration(
                             image: DecorationImage(
@@ -37,9 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     Container(
-                      width: 150,
                       height: 200.0,
+                      width: 175,
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
                             "Scan this at the till to collect points",
@@ -66,10 +67,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               )),
           Padding(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(10),
             child: Container(
-              color: Colors.white,
-              height: 180,
+              height: 200,
               child: Column(
                 children: [
                   Row(
@@ -89,14 +89,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     progressColor: Color(0xff038dc8),
                     backgroundColor: Colors.grey,
                   ),
-                  Row(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                            "7 more points to your next voucher worth €4 "),
-                      ),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "7 more points to your next voucher worth €4 ",
+                      style:
+                          TextStyle(color: Colors.grey.shade700, fontSize: 18),
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -115,23 +114,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   Text(
-                      "The last day to collect points for your next statement period is 20/10/22")
+                    "The last day to collect points for your next statement period is 20/10/22",
+                    style: TextStyle(color: Colors.grey.shade700, fontSize: 18),
+                  )
                 ],
               ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8),
-            child: Container(
-              height: 150,
-              color: Color(0xff00529e),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8),
-            child: Container(
-              height: 150,
-              color: Color(0xff00529e),
             ),
           ),
         ],

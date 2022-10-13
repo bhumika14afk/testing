@@ -74,7 +74,7 @@ class _PointsScreenState extends State<PointsScreen> {
           Padding(
             padding: const EdgeInsets.all(8),
             child: Container(
-              height: 400,
+              height: 380,
               color: Colors.grey[300],
               child: ListView(
                 padding: const EdgeInsets.all(1),
@@ -130,10 +130,35 @@ class _PointsScreenState extends State<PointsScreen> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(10),
             child: Container(
-              height: 150,
-              color: Colors.deepPurple[200],
+              height: 100,
+              child: Card(
+                child: ListTile(
+                  leading: Icon(
+                    CupertinoIcons.plus_rectangle,
+                    color: Color(0xff007eb2),
+                    size: 35,
+                  ),
+                  title: Text(
+                    'Discover ways to collect',
+                    style: TextStyle(
+                        color: Color(0xff007eb2),
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  subtitle: Text(
+                    'Collect points',
+                    style: TextStyle(fontSize: 16),
+                  ),
+                  trailing: Icon(
+                    CupertinoIcons.chevron_right_circle,
+                    color: Color(0xff007eb2),
+                    size: 35,
+                  ),
+                  onTap: () {},
+                ),
+              ),
             ),
           ),
         ],
