@@ -40,6 +40,7 @@ dependencies:
   percent_indicator: ^2.1.3
   linear_progress_bar: ^1.1.0
   avatars: ^3.0.0
+  fluentui_system_icons: ^1.1.183
 
 dev_dependencies:
   flutter_test:

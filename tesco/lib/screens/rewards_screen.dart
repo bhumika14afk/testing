@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tesco/screens/home_screen.dart';
-import 'package:tesco/screens/reward_details.dart';
+import 'reward_details.dart';
 import 'NavBar.dart';
 
 class Rewards extends StatefulWidget {
