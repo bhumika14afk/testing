@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tesco/screens/home_screen.dart';
 import 'package:tesco/screens/reward_details.dart';
 import 'NavBar.dart';
 
@@ -72,17 +73,17 @@ class _RewardsState extends State<Rewards> {
         subtitle: '€1.50 to use'),
     CardItem(
         urlImage:
-            "https://tasteleamington.com/identity-cms/wp-content/uploads/2016/10/pizza-express-logo-jpg.jpg",
+            "https://logos-download.com/wp-content/uploads/2021/02/The_Book_People_Logo.png",
         title: "€0.50 in vouchers",
         subtitle: '€1.50 to use'),
     CardItem(
         urlImage:
-            "https://tasteleamington.com/identity-cms/wp-content/uploads/2016/10/pizza-express-logo-jpg.jpg",
+            "https://logos-download.com/wp-content/uploads/2021/02/The_Fresh_Market_Logo.png",
         title: "€0.50 in vouchers",
         subtitle: '€1.50 to use'),
     CardItem(
         urlImage:
-            "https://tasteleamington.com/identity-cms/wp-content/uploads/2016/10/pizza-express-logo-jpg.jpg",
+            "https://logos-download.com/wp-content/uploads/2020/07/Double_Coffee_Logo.png",
         title: "€0.50 in vouchers",
         subtitle: '€1.50 to use'),
   ];
@@ -106,11 +107,17 @@ class _RewardsState extends State<Rewards> {
                   "Eating Out",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
-                Text("See all >",
+                GestureDetector(
+                  child: Text(
+                    "See all >",
                     style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xff00529e)))
+                      color: Color(0xff00529e),
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  onTap: () {},
+                )
               ],
             ),
           ),
@@ -132,11 +139,17 @@ class _RewardsState extends State<Rewards> {
                 Text("Fun",
                     style:
                         TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                Text("See all >",
+                GestureDetector(
+                  child: Text(
+                    "See all >",
                     style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xff00529e)))
+                      color: Color(0xff00529e),
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  onTap: () {},
+                )
               ],
             ),
           ),
@@ -157,11 +170,17 @@ class _RewardsState extends State<Rewards> {
                 Text("Fun",
                     style:
                         TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                Text("See all >",
+                GestureDetector(
+                  child: Text(
+                    "See all >",
                     style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xff00529e)))
+                      color: Color(0xff00529e),
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  onTap: () {},
+                )
               ],
             ),
           ),

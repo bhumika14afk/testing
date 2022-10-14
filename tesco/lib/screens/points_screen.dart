@@ -123,6 +123,7 @@ class _PointsScreenState extends State<PointsScreen> {
                           ))),
                   Card(
                       child: ListTile(
+                          onTap: () {},
                           title: Text("View more"),
                           trailing: Icon(Icons.arrow_forward_ios_sharp)))
                 ],
